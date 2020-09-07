@@ -33,6 +33,9 @@ public class Main {
             System.exit(1);
         }
 	    Main main = new Main();
+        System.out.println("connection: " + args[0]);
+        System.out.println("userId: " + args[1]);
+        System.out.println("password: " + args[2]);
 	    main.dbConnect(args[0], args[1], args[2]);
     }
 }
